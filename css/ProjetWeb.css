@@ -295,6 +295,7 @@ footer {
         display: flex;
     }
     .banner__content h1 {
+        margin-top: 54px;
         font-size: 2rem;
         padding: 30px;
     }
