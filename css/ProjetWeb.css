@@ -211,18 +211,6 @@
     margin-bottom: 50px;
     z-index:-99;
 }
-.your__teams h1::before {
-    content: "";
-    position: absolute;
-    border: 0.5rem solid #18ab63;
-    border-radius: 20px 20px;
-    display: block;
-    width: 12%;
-    top: 159%;
-    justify-items: center; 
-    align-items: center;   
-}
-
 .grid-columns-2 {
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
@@ -252,25 +240,15 @@ span {
 /* contact__us */
 .contact__us {
     background-color: #EFEFEF;
-    padding: 20px;
+    padding: 10px;
 }
-/* .big-title:before {
-    content: " ";
-    width: 120px;
-    height: 14px;
-    border-radius: 7px;
-    background: #ff6600;
-    display: block;
-    margin: 15px auto 15px auto;
-}
-*/
 .container__form {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     box-shadow: 0px 9px 50px -9px rgba(0,0,0,0.1);
-    padding: 25px;
+    padding: 20px;
 }
 form {
     flex-direction: column;
@@ -289,7 +267,6 @@ input[type=submit] {
     border: 1px solid #18ab63;
     border-radius: 5px 5px;
     font-weight: bold;
-
 }
 
 /* footer */
@@ -319,7 +296,12 @@ footer {
     }
     .banner__content h1 {
         font-size: 2rem;
+        padding: 30px;
+    }
+    .banner__content p {
+        margin-top: -70px;
         padding: 20px;
+        justify-content: center;
     }
     .banner__btn__conctat_us {
         display: none;
