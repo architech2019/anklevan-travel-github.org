@@ -1,4 +1,5 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 :root {
     --primary:rgba(0, 0, 0, 0.832);
     --secondary:rgba(0, 0, 0, 0.644);     
@@ -8,8 +9,8 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: 'Montserrat', 'Alliance No.1', sans-serif;
-    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
 }
 /* nav__bar */
 .nav__bar {
@@ -65,6 +66,16 @@
     color: white;
     background-color: #18ab63;
 }
+.btn__menu a {
+    margin-right: 50px;
+    line-height: 70px;
+    color: #18ab63;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #18ab63;
+    padding: 5px 15px;
+    display: none;
+}
 
 /* Class intermediaire */
 .text__center {
@@ -93,6 +104,7 @@
 .banner__content p {
     margin-bottom: 50px;
     color: #18ab63;
+    font-family: 'Roboto', sans-serif;
 }
 .banner__btn__appoitement {
     margin-right: 50px;
@@ -193,6 +205,7 @@
 }
 .your__services__items p {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     margin: 10px;
     margin-top: 10%;
     margin-bottom: 8%;
@@ -237,10 +250,29 @@ span {
     margin-bottom: 30px;
     z-index:-99;   
 }
+.About__as p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 /* contact__us */
 .contact__us {
     background-color: #EFEFEF;
     padding: 10px;
+}
+.your__message h2 {
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+.your__message p {
+    color: #18ab63;
+    font-family: 'Roboto', sans-serif;
+}
+.contact__us__items h1 {
+    padding: 15px;
+    font-weight: bold;
 }
 .container__form {
     display: flex;
@@ -252,6 +284,11 @@ span {
 }
 form {
     flex-direction: column;
+}
+label {
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 input[type=text], [type=email], textarea {
     width: 100%;
@@ -275,6 +312,7 @@ footer {
     color: #18ab63;
     padding: 25px;
     font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -288,6 +326,16 @@ footer {
     }
     .btn__appoitement {
         display: none;
+    }
+    .btn__menu a {
+        margin-right: 50px;
+        line-height: 40px;
+        margin-top: 10px;
+        color: #18ab63;
+        font-weight: bold;
+        text-decoration: none;
+        border: 1px solid #18ab63;
+        display: block;
     }
     .banner {
         margin: auto;
@@ -303,6 +351,9 @@ footer {
         margin-top: -70px;
         padding: 20px;
         justify-content: center;
+    }
+    .banner__btn__appoitement {
+        margin-left: 20px;
     }
     .banner__btn__conctat_us {
         display: none;
