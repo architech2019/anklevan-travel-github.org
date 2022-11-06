@@ -353,6 +353,7 @@ footer {
         justify-content: center;
     }
     .banner__btn__appoitement {
+        margin-top: -90%;
         margin-left: 20px;
     }
     .banner__btn__conctat_us {
