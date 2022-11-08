@@ -263,7 +263,7 @@ span {
 }
 .your__message h2 {
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     margin-top: 5px;
 }
 .your__message p {
@@ -281,6 +281,9 @@ span {
     justify-content: center;
     box-shadow: 0px 9px 50px -9px rgba(0,0,0,0.1);
     padding: 20px;
+}
+.form__contact h1 {
+    padding: 15px;
 }
 form {
     flex-direction: column;
@@ -310,9 +313,37 @@ input[type=submit] {
 footer {
     background-color: #000;
     color: #18ab63;
-    padding: 25px;
+    padding: 30px;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
+}
+.mediasociaux {
+    color: #EFEFEF;
+    margin-right: 20px 20px;
+    display: flex;
+}
+/* 
+.mediasociaux a {
+    background-color: #18ab63;
+    border-radius: 50%;
+    margin-right: 20px 20px;
+    height: 30px;
+    width: 30px;
+    color: #EFEFEF;
+}
+*/
+.mediasociaux i {
+    margin-right:20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+    background-color: #18ab63;
+    color: #EFEFEF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
 }
 
 
